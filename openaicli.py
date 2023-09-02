@@ -4,13 +4,7 @@ import os
 import datetime
 import logging
 
-
-from pprint import pprint
-
-
 openai.api_key = os.getenv("OPENAI_API_KEY")
-
-
 
 def input(prompt):
     print(prompt, end='', file=sys.stderr, flush=True)
@@ -47,8 +41,6 @@ def openAIQuery(query):
               log_message("The response meesagefrom chatgpt is " +  res)
               return (str(res))
      
-
-
 def runall(query):
     queryLen = len(query)
     log_message("The prompt meesage submitted to chatgpt is " + query)
