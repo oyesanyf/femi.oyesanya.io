@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Femi Oyesanya /CLI Tools for LLMs"
 title_separator          : "-"
 name                     : &name "Femi Oyesanya"
-description              : &description "Command Line Tools for ML and LLM "
+description              : &description "Command Line Tools for ML and LLM. "
 url                      : https://github.com/oyesanyf/femi.oyesanya.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "oyesanyf/femi.oyesanya.io"
